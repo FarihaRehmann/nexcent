@@ -13,7 +13,7 @@
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
-  --bs-green: #198754;
+  --bs-green: #198754 ;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
@@ -124,6 +124,7 @@
   --bs-form-invalid-color: #dc3545;
   --bs-form-invalid-border-color: #dc3545;
 }
+
 
 [data-bs-theme=dark] {
   color-scheme: dark;
@@ -706,6 +707,9 @@ progress {
   font-size: 0.875em;
   color: #6c757d;
 }
+/* .textgreen {
+color: var(--greenColor) !important;
+} */
 .blockquote-footer::before {
   content: "— ";
 }
@@ -3703,6 +3707,10 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn {
   position: relative;
   flex: 1 1 auto;
+}
+.customshadow {
+  box-shadow: 0px 1.39px 2.78px 0px #ABBED133;
+
 }
 .btn-group > .btn-check:checked + .btn,
 .btn-group > .btn-check:focus + .btn,
